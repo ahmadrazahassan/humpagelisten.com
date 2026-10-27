@@ -4,7 +4,8 @@ export const site = {
   tagline: "Honest audiobook app reviews",
   description:
     "HumPage Listen compares audiobook apps and reviews audiobooks with a close ear on narration, real yearly cost, and what you keep when you cancel.",
-  url: process.env.SITE_URL ?? "https://humpagelisten.com",
+  // Vercel serves the site on www, so links in the sitemap and metadata use www too.
+  url: process.env.SITE_URL ?? "https://www.humpagelisten.com",
   email: "hello@humpagelisten.com",
   author: {
     name: "Ilyas Jan",
