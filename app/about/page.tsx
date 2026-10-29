@@ -48,7 +48,7 @@ export default function About() {
                   I care most about two things that store pages rarely tell you: how a narrator sounds after ten hours, and what really happens to your library when you stop paying. Those two questions shape every review here.
                 </p>
                 <p>
-                  HumPage Listen is funded by affiliate commissions from some of the services we review. I explain exactly how that works on the affiliate disclosure page, and why it never changes a score.
+                  HumPage Listen is funded by affiliate commissions from some of the services we review. HumPage Listen is an abc affiliate. I explain exactly how that works on the affiliate disclosure page, and why it never changes a score.
                 </p>
               </div>
             </div>

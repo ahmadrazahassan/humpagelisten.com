@@ -66,7 +66,7 @@ export function Footer() {
           <p className="max-w-3xl">
             HumPage Listen is reader supported. When you sign up for a service through some links on this site, we may earn a commission at no
             extra cost to you. As an Amazon Associate I earn from qualifying purchases. HumPage Listen participates in the Amazon Services LLC Associates Program. HumPage Listen is independent and is not owned by any of the services we review. Logos and book covers belong to
-            their owners and are used to identify the products we review.
+            their owners and are used to identify the products we review. HumPage Listen is an abc affiliate.
           </p>
           <div className="mt-6 flex flex-col gap-2 sm:flex-row sm:justify-between">
             <p>
