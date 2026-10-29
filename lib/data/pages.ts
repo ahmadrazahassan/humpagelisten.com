@@ -16,7 +16,7 @@ export const pages: Record<string, Page> = {
       {
         heading: "The short version",
         paragraphs: [
-          "HumPage Listen is free to read and is supported by its readers. Some links on this site are affiliate links. If you click one and then start a free trial, buy an audiobook or subscribe, the company may pay HumPage Listen a commission. The price you pay is exactly the same as going to the site directly. HumPage Listen is an abc affiliate.",
+          "HumPage Listen is free to read and is supported by its readers. Some links on this site are affiliate links. If you click one and then start a free trial, buy an audiobook or subscribe, the company may pay HumPage Listen a commission. The price you pay is exactly the same as going to the site directly.",
           `${AMAZON_DISCLOSURE}`,
         ],
       },
