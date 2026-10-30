@@ -12,7 +12,14 @@ export type Partner = {
 };
 
 export const partners: Partner[] = [
-  { slug: "audiobooks-com", name: "Audiobooks.com", destinationUrl: "https://www.audiobooks.com/", status: "pending", network: "Post Affiliate Pro" },
+  {
+    slug: "audiobooks-com",
+    name: "Audiobooks.com",
+    destinationUrl: "https://www.audiobooks.com/",
+    affiliateUrl: "https://audiobookscom.postaffiliatepro.com/scripts/kcd5fq4o7?a_aid=cvlsn1nvnilg6&a_bid=6de39593",
+    status: "approved",
+    network: "Post Affiliate Pro",
+  },
   {
     slug: "audible",
     name: "Audible",

@@ -31,7 +31,7 @@ export const pages: Record<string, Page> = {
         heading: "Other programs",
         paragraphs: [],
         list: [
-          "Audiobooks.com: we have applied to its affiliate program. If it is approved, links to Audiobooks.com will earn a commission on free trial sign ups.",
+          "Audiobooks.com: we are part of its affiliate program, so links to Audiobooks.com earn a commission on free trial sign ups, at no extra cost to you.",
           "We may join affiliate programs from other services we review. This page will list each one when that happens.",
           "Services we do not earn from, such as Libby, are still reviewed and recommended when they are the better choice.",
         ],
