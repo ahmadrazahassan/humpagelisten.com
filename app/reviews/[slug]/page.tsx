@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { AudiobooksBanner } from "@/components/banners";
 import { AuthorBox, BookCard, FactsTable, FaqList, FinalCta, ProsCons, Prose, ServiceCard } from "@/components/blocks";
 import { BrandLogo, Breadcrumbs, ButtonLink, Container, Disclosure, JsonLd, Label, PartnerButton, Score } from "@/components/ui";
 import { comparisons, getBooks, getService, getServices } from "@/lib/content";
@@ -87,6 +88,7 @@ export default async function ServiceReview(props: PageProps<"/reviews/[slug]">)
             </div>
             <FactsTable s={s} />
             <ProsCons pros={s.pros} cons={s.cons} />
+            <AudiobooksBanner format="leaderboard" />
             <div className="max-w-[680px]">
               <Prose sections={s.sections} />
             </div>
@@ -124,6 +126,7 @@ export default async function ServiceReview(props: PageProps<"/reviews/[slug]">)
                 </ul>
               </div>
             )}
+            <AudiobooksBanner format="box" className="hidden lg:block" />
           </aside>
         </div>
       </Container>

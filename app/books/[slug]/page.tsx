@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Clock, Microphone } from "@phosphor-icons/react/dist/ssr";
+import { AudiobooksBanner } from "@/components/banners";
 import { AuthorBox, BookCard } from "@/components/blocks";
 import { Breadcrumbs, Container, Cover, Disclosure, JsonLd, Label, PartnerButton, Stars, tintClass } from "@/components/ui";
 import { getBook, getBooks } from "@/lib/content";
@@ -105,6 +106,10 @@ export default async function BookReview(props: PageProps<"/books/[slug]">) {
                   </PartnerButton>
                 </div>
                 <p className="mt-4 text-xs text-ink-soft">Availability changes. Search the title in the app before spending a credit.</p>
+              </div>
+
+              <div className="mt-10 max-w-[640px]">
+                <AudiobooksBanner format="feature" />
               </div>
 
               <p className="mt-10 text-sm text-ink-soft">

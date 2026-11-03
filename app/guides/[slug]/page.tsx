@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { AudiobooksBanner } from "@/components/banners";
 import { AuthorBox, Prose } from "@/components/blocks";
 import { Breadcrumbs, Container, Disclosure, JsonLd, Label, Photo } from "@/components/ui";
 import { getGuide, getGuides } from "@/lib/content";
@@ -46,6 +47,7 @@ export default async function GuidePage(props: PageProps<"/guides/[slug]">) {
         <div className="mx-auto mt-12 max-w-[680px] pb-20">
           <Disclosure />
           <Prose sections={g.sections} />
+          <AudiobooksBanner format="feature" className="mt-12" />
           {g.sources.length > 0 && (
             <div className="glass mt-12 rounded-[24px] p-6">
               <p className="font-display">Sources</p>

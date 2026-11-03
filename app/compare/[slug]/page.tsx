@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { AudiobooksBanner } from "@/components/banners";
 import { AuthorBox } from "@/components/blocks";
 import { BrandLogo, Breadcrumbs, Container, Disclosure, Label, PartnerButton, Score } from "@/components/ui";
 import { comparisons, getComparison } from "@/lib/content";
@@ -112,6 +113,7 @@ export default async function VsPage(props: PageProps<"/compare/[slug]">) {
               </div>
             ))}
           </div>
+          <AudiobooksBanner format="leaderboard" className="mt-12" />
           <div className="mt-12">
             <AuthorBox />
           </div>

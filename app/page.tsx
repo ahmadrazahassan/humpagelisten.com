@@ -11,6 +11,7 @@ import {
   TopServices,
   TrialCards,
 } from "@/components/home";
+import { BannerBand } from "@/components/banners";
 import { JsonLd } from "@/components/ui";
 import { getHomeFaqs } from "@/lib/content";
 
@@ -21,11 +22,13 @@ export default function Home() {
       <TestedStrip />
       <TopServices />
       <QuickCompare />
+      <BannerBand className="pt-16 sm:pt-20" />
       <HowWeReview />
       <BookCarousel />
       <ListeningNotes />
       <GuidesGrid />
       <TrialCards />
+      <BannerBand format="feature" className="pb-24 sm:pb-32" />
       <FaqAndLatest />
       <Newsletter />
       <JsonLd

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { AudiobooksBanner } from "@/components/banners";
 import Link from "next/link";
 import { PageIntro } from "@/components/blocks";
 import { Container, Photo } from "@/components/ui";
@@ -33,6 +34,7 @@ export default function GuidesPage() {
               </Link>
             ))}
           </div>
+          <AudiobooksBanner format="leaderboard" className="mt-16" />
         </Container>
       </section>
     </>

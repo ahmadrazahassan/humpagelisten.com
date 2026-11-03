@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { AudiobooksBanner } from "@/components/banners";
 import { PageIntro, ServiceCard } from "@/components/blocks";
 import { Container, Disclosure } from "@/components/ui";
 import { getServices } from "@/lib/content";
@@ -26,6 +27,7 @@ export default function ReviewsPage() {
               <ServiceCard key={s.slug} s={s} />
             ))}
           </div>
+          <AudiobooksBanner format="leaderboard" className="mt-16" />
         </Container>
       </section>
     </>

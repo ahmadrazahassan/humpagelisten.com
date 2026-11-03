@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { BannerBand } from "@/components/banners";
 import Link from "next/link";
 import { Check, X } from "@phosphor-icons/react/dist/ssr";
 import { PageIntro } from "@/components/blocks";
@@ -106,6 +107,8 @@ export default function ComparePage() {
           </p>
         </Container>
       </section>
+
+      <BannerBand className="pb-20" />
 
       <section id="picker" className="scroll-mt-8 bg-bg/60 py-24">
         <Container>

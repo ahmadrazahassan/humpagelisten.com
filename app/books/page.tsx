@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { AudiobooksBanner } from "@/components/banners";
 import { BookCard, PageIntro } from "@/components/blocks";
 import { Container } from "@/components/ui";
 import { getBooks } from "@/lib/content";
@@ -24,6 +25,7 @@ export default function BooksPage() {
               <BookCard key={b.slug} b={b} />
             ))}
           </div>
+          <AudiobooksBanner format="leaderboard" className="mt-16" />
         </Container>
       </section>
     </>
